@@ -1,0 +1,83 @@
+body {
+    font-family: Urbanist;
+    background-color: #594545;
+}
+
+form {
+    width: 500px;
+}
+        
+.question {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#q1, #q2, #q3, #q4, #q5{
+    border-radius: 30px;
+    padding:2%;
+    position: absolute;
+}
+
+#q1{
+    background-color: #A77979;
+    left: 30px;
+    top: 30px;
+}
+
+#q2{
+    background-color: #704F4F;
+    left: 140px;
+    top: 120px;
+}
+
+#q3{
+    background-color: #A77979;
+    left: 420px;
+    top: 210px;
+}
+
+#q4{
+    background-color: #704F4F;
+    left: 560px;
+    top: 300px;
+}
+
+#q5{
+    background-color: #A77979;
+    left: 730px;
+    top: 390px;
+}
+
+#btn{
+    position: absolute;
+    left:7%;
+    bottom: 15%;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    font-family: Aboreto;
+    font-size: 40px;
+    background-color: #FFF8EA;
+}
+
+#btn:hover{
+    color: #594545;
+    text-shadow: 3px 3px 3px #594545;
+}
+
+img{
+    position: absolute;
+    right: 7%;
+    top: 4%;
+    height: 200px;
+}
+
+#textArea{
+    position: absolute;
+    text-align: center;
+    left:8%;
+    bottom: 8%;
+    background-color: #9E7676;
+    border-radius: 30px;
+    width: 150px;
+}

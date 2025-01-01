@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="quiz.css">
+    <script src="quiz.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Urbanist">
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+  <img src="media/question.png">
+  <div class="card">
+    <form>
+      
+        <div id="q1">
+        <p class="question">Question 1: When was the city of Abu Dhabi established?</p>
+        <input type="radio" id="correct1" name="capital1" >
+        <label id="green1">1700s</label><br>
+        <input type="radio" name="capital1" >
+        <label>1800s</label><br>
+        <input type="radio" name="capital1">
+        <label>1900s</label>
+        </div>
+      
+        <div id="q2">
+        <p class="question">Question 2: What is the name of the iconic mosque in Abu Dhabi?</p>
+        <input type="radio" name="capital2" >
+        <label id="green2">Qasr Al-Hosn Mosque</label><br>
+        <input type="radio" id="correct2" name="capital2">
+        <label>Sheikh Zayed Grand Mosque</label><br>
+        <input type="radio" name="capital2">
+        <label>Qasr Al-Hosn Mosque</label><br><br>
+        </div>
+      
+        <div id="q3">
+        <p class="question">Question 3: What is Abu Dhabi known for producing?</p>
+        <input type="radio" id="correct3" name="capital3" >
+        <label id="green3">Oil</label><br>
+        <input type="radio" name="capital3" >
+        <label>Gold</label><br>
+        <input type="radio" name="capital3" >
+        <label>Diamonds</label><br><br>
+        </div>
+      
+        <div id="q4">
+        <p class="question">Question 4: What is the name of the royal family that governs Abu Dhabi?</p>
+        <input type="radio" name="capital4" >
+        <label>Al Maktoum</label><br>
+        <input type="radio" name="capital4" >
+        <label>Al Qassimi</label><br>
+        <input type="radio" id="correct4" name="capital4" >
+        <label id="green4">Al Nahyan</label><br><br>
+        </div>
+
+        <div id="q5">
+          <p class="question">Question 5: What is the name of the largest shopping mall in Abu Dhabi?</p>
+          <input type="radio" id="correct5" name="capital5" >
+          <label id="green5">Yas Mall</label><br>
+          <input type="radio" name="capital5" >
+          <label>The Galleria</label><br>
+          <input type="radio"  name="capital5" >
+          <label>Abu Dhabi Mall</label><br><br>
+        </div>
+
+        <input id="btn" type="button" value="Submit" onclick="checkAnswers()">   
+        <h3 id="textArea"></h3>
+      </form>
+      </div>
+    
+</body>
+</html>

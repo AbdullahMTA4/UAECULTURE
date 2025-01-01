@@ -1,0 +1,104 @@
+#pic1{
+    width:310px;
+    border-radius: 50%;
+    position: absolute;
+    top:60px;
+    right:80px;
+    /* border: solid rgb(212, 191, 191) 10px; */
+}
+
+#pic2{
+    width:350px;
+    border-radius: 205px;
+    top:50px;
+    position: absolute;
+    left:5%;
+    /* border: solid rgb(212, 191, 191) 10px; */
+
+    }
+
+#pic3{
+    height:270px;
+    border-radius:100px;
+    position: absolute;
+    bottom:50px;
+    left:400px;
+    /* border: solid rgb(212, 191, 191) 10px; */
+
+}
+
+#pic4{
+    position:absolute;
+    border-radius:100px;
+    height:270px;
+    /* border: solid rgb(212, 191, 191) 10px; */
+    bottom:50px;
+    right:400px;
+
+}
+
+
+#icon{
+    width:50px;
+}
+
+
+body{
+    margin:0;
+}
+
+#page1{
+    width:100vw;
+    height:100vh;
+    background-color:rgba(253,253,249,255);
+    background-image: url("https://www.transparenttextures.com/patterns/billie-holiday.png");
+    background-size: 100px;
+
+}
+
+#title{
+    position:absolute;
+    font-size: 60px;
+    font-family: Urbanist;
+    font-weight: bold;
+    left:33%;
+    width:700px;
+    color:rgb(45, 44, 42);
+    top:20%;
+}
+
+#para{
+    font-family: Be Vietnam pro;
+    top:45%;
+    left:33%;
+    width:700px;   
+    position: absolute;
+    font-size:20px;
+    color:rgb(67, 62, 62);
+}
+
+.button{
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    padding: 13px 13px;
+    background-color: transparent;
+    border: black solid 3px;
+    border-radius: 25px;
+    font-size: larger;
+
+  }
+  
+  .button:hover{
+    background-color: rgb(67, 62, 62);
+  }
+
+  a{
+    text-decoration: none;
+    color: black;
+
+  }
+
+  a:hover{
+    color: white;
+  }

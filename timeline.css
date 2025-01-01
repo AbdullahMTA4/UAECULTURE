@@ -1,0 +1,226 @@
+body{
+    margin:0;
+}
+
+#first{
+
+    width:100vw;
+    height: 100vh;
+    position: absolute;
+}
+
+#second, #third, #fourth, #fifth, #sixth{
+    height: 100vh;
+    position: absolute;
+    width:100vw;
+    background-color: #c1ae99;
+    color: #5c5349;
+    background-image: url("https://www.transparenttextures.com/patterns/billie-holiday.png");
+    background-size: 200px;
+}
+
+#second{
+    margin-left:100%;
+}
+
+#third{
+    margin-left:200%;
+}
+
+#fourth{
+    margin-left: 300%;
+}
+
+#fifth{
+    margin-left: 400%;
+}
+
+#sixth{
+    margin-left: 500%;
+}
+
+#first img{
+    height:100vh;
+    position: absolute;
+}
+
+#title{
+    font-size:50px;
+    font-weight: 500;
+    font-family:Be Vietnam Pro;
+    font-weight: bold;
+    color:rgb(92, 83, 73);
+    width:800px;
+    position: absolute;
+    top:60px;
+    left:230px;
+}
+
+#line{
+    background-color: rgb(250, 238, 217);
+    height:2px;
+    width:100vw;
+    position: absolute;
+    bottom:5%;
+    
+
+}
+
+#inner-inner{
+    position:absolute;
+    height:50vh;
+    width:100vw;
+}
+
+#pic1{
+    border-radius:25px;
+    height:60vh;
+    position: absolute;
+    right:5%;
+    top:5%;
+}
+
+#pic2{
+    width:200px;
+    position: absolute;
+    border-radius: 25px;
+    right:5px;
+}
+
+#continue{
+    position: absolute;
+    top:50%;
+    right:5%;
+    font-size: 20px;
+    font-family: Cinzel;
+    width:70%;
+}
+
+#num{
+    position: absolute;
+    top:41%;
+    left:4%;
+    font-size: 25px;
+    font-weight: bold;
+    color:rgb(92, 83, 73);
+    font-family: Urbanist;
+}
+
+#inner{
+    width:100vw;
+    height: 100vh;
+    position: absolute;
+}
+
+#timeline{
+    margin-top:1%;
+    width:100vw;
+    height:3px;
+    border:none;
+    border-top: 5px dotted rgb(121, 121, 121);
+    position: absolute;
+}
+
+#pointer{
+    width:50px;
+    height:20px;
+    background-color:rgb(135, 246, 70);
+    left:20px;
+    border-radius: 10px;
+    position: absolute;
+    top:5px;
+}
+
+#timeline-container{
+    position: relative;
+    width:100vw;
+    height:30px;
+    top:200px;
+}
+
+#a1,#a2, #a3, #a4, #a5, #a6, #a7, #a8, #a9, #a10{
+    width:3px;
+    height:300px;
+    background-color:white;
+    /* margin-left:5%; */
+    /* border-radius: 10px; */
+    position: absolute;
+
+}
+
+#a1{
+    left:5%;
+    bottom:2px;
+}
+
+
+#a2{
+    left:55%;
+}
+
+#a3{
+    left: 105%;
+    bottom:2px;
+}
+
+#years{
+    font-size:100px;
+    margin-left:7%;
+    margin-top:1%;
+    font-family: Urbanist ;
+    position: relative;
+}
+
+ #year2, #year3{
+    margin-left:30%;
+}
+
+#histimg{
+position: absolute;
+left:60px;
+width: 280px;
+border-radius: 25px;
+}
+
+#text-container{
+    position: absolute;
+    height:410px;
+    width:55vw;
+    left:45px;
+    
+}
+
+#text-container2{
+    position: absolute;
+    height:410px;
+    width:55vw;
+    left:53%;
+}
+
+
+
+#years-below{
+    font-size:100px;
+    margin-left:57%;
+    font-family: Urbanist;
+    position: absolute;
+    bottom:2px;
+}
+
+#history{
+    position:absolute;
+    left:370px;
+    top:80px;
+    font-size:30px;
+    font-family: Urbanist;
+    font-weight:bolder;
+    width: 300px;
+    height: 100px;
+}
+
+#history p{
+    width: 300px;
+    margin-top: 90px;
+    font-size: large;
+    font-weight: lighter;
+}

@@ -1,0 +1,61 @@
+#topic {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  body{
+    background-size:75px;
+    background-color: #9E7676;
+  }
+  
+  button{
+    position: absolute;
+    font-family: Urbanist;
+    font-size: large;
+    margin-top:10px;
+    margin-left: 40%;
+    padding: 13px 13px;
+    background-color: #181D31;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: auto;
+  }
+  
+  .button:hover{
+    background-color: #181d31ba;
+  }
+  
+  h1{
+    font-family: 'Aboreto';
+    font-weight: bolder;
+    width: 400px;
+    font-size: 4em; 
+    margin-left:10%; 
+    margin-top:10%;
+  }
+  
+  h3{
+    width: 400px;
+    font-family: Urbanist;
+    margin-left:10%;
+    margin-top:5%;
+  }
+  
+  img {
+    width: 650px;
+    border-radius:25px;
+    left:50%;
+    position:absolute;
+    top:20%
+  }
+
+  a{
+    text-decoration: none;
+    color:black;
+  }
+
+  a:hover{
+    text-decoration: underline;
+    color: tomato;
+  }
